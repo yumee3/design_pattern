@@ -4,7 +4,6 @@ import Singelton.SingeltonDemo;
 public class Main {
     public static void main(String[] args)
     {
-
         // Simple example of using the Singleton
         SingeltonDemo instance = SingeltonDemo.getInstance();
 
