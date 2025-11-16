@@ -14,12 +14,14 @@ public class SingeltonDemo {
 
     // Inner static class holding the single instance.
     // Loaded only when getInstance() is called.
-    private static class SingeltonHolder {
+    private static class SingeltonHolder
+    {
         private static final SingeltonDemo SINGLE_INSTANCE = new SingeltonDemo();
     }
 
     // Returns the single instance of the class.
-    public static SingeltonDemo getInstance() {
+    public static SingeltonDemo getInstance()
+    {
         return SingeltonHolder.SINGLE_INSTANCE;
     }
 }
